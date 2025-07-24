@@ -1,0 +1,143 @@
+[
+    {
+        "name": "7-Zip",
+        "check_path": "C:\\Program Files\\7-Zip\\7z.exe",
+        "installer": "7z920-x64.msi",
+        "expected_hash": "",
+        "args_list": [
+            [
+                "/qn",
+                "/norestart",
+                "/L*vx",
+                "%TEMP%\\7zip_install_log.txt"
+            ]
+        ],
+        "native_log_paths": ["%TEMP%\\7zip_install_log.txt"],
+        "process_name_to_watch": "msiexec.exe"
+    },
+    {
+        "name": "Google Chrome",
+        "check_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "installer": "ChromeSetup.exe",
+        "expected_hash": "",
+        "args_list": [
+            [
+                "/silent",
+                "/install"
+            ],
+            [
+                "--silent",
+                "--do-not-launch-chrome"
+            ]
+        ],
+        "processes_to_check": [
+            "chrome.exe"
+        ]
+    },
+    {
+        "name": "FortiClient VPN",
+        "check_path": "C:\\Program Files\\Fortinet\\FortiClient",
+        "installer": "FortiClientVPNInstaller.exe",
+        "expected_hash": "",
+        "args_list": [
+            [
+                "/s",
+                "/qn"
+            ],
+            [
+                "/quiet",
+                "/norestart"
+            ]
+        ],
+        "native_log_paths": ["%TEMP%\\FCTInstall.log"],
+        "process_name_to_watch": "msiexec.exe"
+    },
+    {
+        "name": "Local Office Agent",
+        "check_path": "",
+        "installer": "LocalOffice_Agent.exe",
+        "expected_hash": "",
+        "args_list": [
+            [
+                "/silent"
+            ]
+        ]
+    },
+    {
+        "name": "Microsoft Office",
+        "check_path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+        "installer": "OfficeSetup.exe",
+        "expected_hash": "",
+        "args_list": [
+            [
+                "/configure",
+                "{SOFTWARE_DIR}\\config.xml"
+            ]
+        ],
+        "process_name_to_watch": "setup.exe",
+        "process_timeout": 5400
+    },
+    {
+        "name": "SAP GUI 8.0",
+        "check_path": "C:\\Program Files (x86)\\SAP\\FrontEnd\\SAPgui",
+        "installer": "SCCC_SAPGUI_8.0_20230823_1623.exe",
+        "expected_hash": "",
+        "args_list": [
+            [
+                "/Silent",
+                "/Product=SAPGUI800",
+                "/Package=SAPGUIPackage"
+            ]
+        ],
+        "native_log_paths": ["%PROGRAMFILES%\\SAP\\SAPSetup\\Setup\\LOGs"]
+    },
+    {
+        "name": "Sophos",
+        "check_path": "C:\\Program Files\\Sophos\\Sophos UI",
+        "installer": "SophosSetup.exe",
+        "expected_hash": "",
+        "cleanup_paths": [
+            "C:\\ProgramData\\Sophos",
+            "C:\\Program Files\\Sophos"
+        ],
+        "args_list": [
+            [
+                "--quiet",
+                "--competitorremoval=enabled"
+            ],
+            [
+                "--force",
+                "--competitorremoval=enabled"
+            ]
+        ],
+        "native_log_paths": [
+            "C:\\ProgramData\\Sophos\\AutoUpdate\\Logs\\SophosUpdate.log",
+            "C:\\ProgramData\\Sophos\\Endpoint Defense\\Logs",
+            "C:\\ProgramData\\Sophos\\Management Communications System\\Logs"
+        ],
+        "process_name_to_watch": "Sophos Endpoint Installer.exe",
+        "services_to_stop": [
+            "Sophos AutoUpdate Service"
+        ],
+        "requires_reboot": true
+    },
+    {
+        "name": "WPS Pro",
+        "check_path": "C:\\Program Files (x86)\\Kingsoft Corp\\WPS Office",
+        "installer": "WPS-Pro-v10330.msi",
+        "expected_hash": "",
+        "cleanup_paths": [
+            "C:\\Program Files (x86)\\Kingsoft Corp\\WPS Office"
+        ],
+        "args_list": [
+            [
+                "/qn",
+                "/norestart",
+                "/L*vx",
+                "%TEMP%\\wps_install_log.txt"
+            ]
+        ],
+        "native_log_paths": ["%TEMP%\\wps_install_log.txt"],
+        "process_name_to_watch": "wps_setup.exe"
+    }
+]

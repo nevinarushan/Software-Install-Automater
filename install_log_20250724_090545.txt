@@ -1,0 +1,685 @@
+2025-07-24 09:05:45,475 - 6108 - __main__ - INFO - ==== Installation script started at 2025-07-24 09:05:45.475475 ====
+2025-07-24 09:05:45,475 - 6108 - __main__ - DEBUG - ==================== System Information ====================
+2025-07-24 09:05:45,479 - 6108 - __main__ - DEBUG - ==================== Environment Variables ====================
+2025-07-24 09:05:45,479 - 6108 - __main__ - DEBUG - ==========================================================
+2025-07-24 09:05:45,479 - 6108 - __main__ - DEBUG - --- Running Pre-flight System Checks ---
+2025-07-24 09:05:45,562 - 6108 - __main__ - DEBUG - Checking disk space on 'C:': 35.69 GB free.
+2025-07-24 09:05:45,563 - 6108 - __main__ - DEBUG - Checking for internet connectivity...
+2025-07-24 09:05:45,700 - 6108 - __main__ - DEBUG - Internet connection verified.
+2025-07-24 09:05:45,700 - 6108 - __main__ - DEBUG - --- Checking status of critical Windows services ---
+2025-07-24 09:05:45,702 - 6108 - __main__ - DEBUG - Checking service 'msiserver': Status is 'running', Start type is 'manual'.
+2025-07-24 09:05:45,703 - 6108 - __main__ - DEBUG - Checking service 'BITS': Status is 'running', Start type is 'automatic'.
+2025-07-24 09:05:45,703 - 6108 - __main__ - WARNING - IMPORTANT: For Sophos or other AV installations, ensure Tamper Protection is DISABLED in the central dashboard before running.
+2025-07-24 09:05:45,703 - 6108 - __main__ - WARNING - IMPORTANT: Ensure this script is run from a trusted location or whitelisted in any existing security software to prevent it from being blocked.
+2025-07-24 09:05:45,704 - 6108 - __main__ - WARNING - IMPORTANT: This script extracts files to a temporary directory in %LOCALAPPDATA% (C:\Users\zkperera\AppData\Local\AutomateSoftwares). Some security policies may block execution from this location. Please ensure the path is trusted.
+2025-07-24 09:05:45,704 - 6108 - __main__ - INFO - --- Pre-flight System Checks Passed ---
+2025-07-24 09:05:45,704 - 6108 - __main__ - WARNING - Please ensure that User Account Control (UAC) is not blocking silent installations.
+2025-07-24 09:05:45,708 - 6108 - __main__ - INFO - Loading software configuration from C:\Users\zkperera\PycharmProjects\AutomateSoftwares\software_config.json
+2025-07-24 09:05:45,717 - 6108 - __main__ - INFO - Software configuration loaded successfully.
+2025-07-24 09:05:45,718 - 6108 - __main__ - INFO - Beginning software installation sequence...
+2025-07-24 09:05:45,718 - 6108 - __main__ - INFO - 
+==================================================
+Starting installation for: 7-Zip
+==================================================
+
+2025-07-24 09:05:45,719 - 6108 - __main__ - WARNING - No hash provided for 7z920-x64.msi. Cannot verify integrity.
+2025-07-24 09:05:45,720 - 6108 - __main__ - INFO - '7-Zip' is already installed (check path exists: C:\Program Files\7-Zip\7z.exe). Skipping.
+2025-07-24 09:05:45,720 - 6108 - __main__ - INFO - 
+==================================================
+Starting installation for: Google Chrome
+==================================================
+
+2025-07-24 09:05:45,762 - 6108 - __main__ - WARNING - No hash provided for ChromeSetup.exe. Cannot verify integrity.
+2025-07-24 09:05:45,763 - 6108 - __main__ - INFO - Setting Chrome installer log path to: C:\Users\zkperera\PycharmProjects\AutomateSoftwares\chrome_install.log
+2025-07-24 09:05:45,764 - 6108 - __main__ - INFO - 'Google Chrome' is already installed (check path exists: C:\Program Files\Google\Chrome\Application\chrome.exe). Skipping.
+2025-07-24 09:05:45,765 - 6108 - __main__ - INFO - 
+==================================================
+Starting installation for: FortiClient VPN
+==================================================
+
+2025-07-24 09:05:45,826 - 6108 - __main__ - WARNING - No hash provided for FortiClientVPNInstaller.exe. Cannot verify integrity.
+2025-07-24 09:05:45,826 - 6108 - __main__ - INFO - 'FortiClient VPN' is already installed (check path exists: C:\Program Files\Fortinet\FortiClient). Skipping.
+2025-07-24 09:05:45,828 - 6108 - __main__ - INFO - 
+==================================================
+Starting installation for: Local Office Agent
+==================================================
+
+2025-07-24 09:05:45,829 - 6108 - __main__ - WARNING - No hash provided for LocalOffice_Agent.exe. Cannot verify integrity.
+2025-07-24 09:05:45,829 - 6108 - __main__ - WARNING - No 'check_path' provided for 'Local Office Agent'. Installation success cannot be reliably verified.
+2025-07-24 09:05:45,829 - 6108 - __main__ - INFO - Running installer for 'Local Office Agent' from 'C:\Users\zkperera\PycharmProjects\AutomateSoftwares\Softwares\LocalOffice_Agent.exe'
+2025-07-24 09:05:45,829 - 6108 - __main__ - DEBUG - --- Process List Snapshot (pre-install) ---
+2025-07-24 09:05:45,840 - 6108 - __main__ - DEBUG -   PID: 0, Name: System Idle Process, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,840 - 6108 - __main__ - DEBUG -   PID: 4, Name: System, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,841 - 6108 - __main__ - DEBUG -   PID: 140, Name: , User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,841 - 6108 - __main__ - DEBUG -   PID: 180, Name: Registry, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,842 - 6108 - __main__ - DEBUG -   PID: 644, Name: smss.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,842 - 6108 - __main__ - DEBUG -   PID: 672, Name: wininit.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,842 - 6108 - __main__ - DEBUG -   PID: 800, Name: csrss.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,843 - 6108 - __main__ - DEBUG -   PID: 956, Name: csrss.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,843 - 6108 - __main__ - DEBUG -   PID: 1032, Name: winlogon.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,843 - 6108 - __main__ - DEBUG -   PID: 1060, Name: services.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,844 - 6108 - __main__ - DEBUG -   PID: 1080, Name: conhost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,844 - 6108 - __main__ - DEBUG -   PID: 1088, Name: LsaIso.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,844 - 6108 - __main__ - DEBUG -   PID: 1096, Name: lsass.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,845 - 6108 - __main__ - DEBUG -   PID: 1104, Name: conhost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,845 - 6108 - __main__ - DEBUG -   PID: 1240, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,845 - 6108 - __main__ - DEBUG -   PID: 1252, Name: WUDFHost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,845 - 6108 - __main__ - DEBUG -   PID: 1260, Name: WUDFHost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,846 - 6108 - __main__ - DEBUG -   PID: 1288, Name: fontdrvhost.exe, User: Font Driver Host\UMFD-0
+2025-07-24 09:05:45,846 - 6108 - __main__ - DEBUG -   PID: 1296, Name: fontdrvhost.exe, User: Font Driver Host\UMFD-1
+2025-07-24 09:05:45,846 - 6108 - __main__ - DEBUG -   PID: 1372, Name: svchost.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:05:45,847 - 6108 - __main__ - DEBUG -   PID: 1380, Name: WUDFHost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,847 - 6108 - __main__ - DEBUG -   PID: 1460, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,847 - 6108 - __main__ - DEBUG -   PID: 1520, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,848 - 6108 - __main__ - DEBUG -   PID: 1536, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,848 - 6108 - __main__ - DEBUG -   PID: 1572, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,848 - 6108 - __main__ - DEBUG -   PID: 1580, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,849 - 6108 - __main__ - DEBUG -   PID: 1604, Name: WidgetService.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,849 - 6108 - __main__ - DEBUG -   PID: 1608, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,850 - 6108 - __main__ - DEBUG -   PID: 1620, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,850 - 6108 - __main__ - DEBUG -   PID: 1628, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,851 - 6108 - __main__ - DEBUG -   PID: 1648, Name: dwm.exe, User: Window Manager\DWM-1
+2025-07-24 09:05:45,851 - 6108 - __main__ - DEBUG -   PID: 1700, Name: svchost.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:05:45,851 - 6108 - __main__ - DEBUG -   PID: 1720, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,851 - 6108 - __main__ - DEBUG -   PID: 1736, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,852 - 6108 - __main__ - DEBUG -   PID: 1744, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,852 - 6108 - __main__ - DEBUG -   PID: 1760, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,852 - 6108 - __main__ - DEBUG -   PID: 1816, Name: IntelCpHDCPSvc.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,852 - 6108 - __main__ - DEBUG -   PID: 1848, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,853 - 6108 - __main__ - DEBUG -   PID: 1868, Name: igfxEMN.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,853 - 6108 - __main__ - DEBUG -   PID: 1912, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,853 - 6108 - __main__ - DEBUG -   PID: 1920, Name: DriverCtrl.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,854 - 6108 - __main__ - DEBUG -   PID: 1924, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,854 - 6108 - __main__ - DEBUG -   PID: 1932, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,854 - 6108 - __main__ - DEBUG -   PID: 1944, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,854 - 6108 - __main__ - DEBUG -   PID: 2008, Name: svchost.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:05:45,855 - 6108 - __main__ - DEBUG -   PID: 2036, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,855 - 6108 - __main__ - DEBUG -   PID: 2060, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,855 - 6108 - __main__ - DEBUG -   PID: 2068, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,856 - 6108 - __main__ - DEBUG -   PID: 2092, Name: SEDService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,856 - 6108 - __main__ - DEBUG -   PID: 2168, Name: tposd.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,856 - 6108 - __main__ - DEBUG -   PID: 2180, Name: RuntimeBroker.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,857 - 6108 - __main__ - DEBUG -   PID: 2256, Name: WmiPrvSE.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:05:45,857 - 6108 - __main__ - DEBUG -   PID: 2272, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,857 - 6108 - __main__ - DEBUG -   PID: 2308, Name: ec_acp64service.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,858 - 6108 - __main__ - DEBUG -   PID: 2348, Name: igfxCUIServiceN.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,858 - 6108 - __main__ - DEBUG -   PID: 2616, Name: WUDFHost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,858 - 6108 - __main__ - DEBUG -   PID: 2668, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,859 - 6108 - __main__ - DEBUG -   PID: 2684, Name: PhoneExperienceHost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,859 - 6108 - __main__ - DEBUG -   PID: 2716, Name: sh.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,859 - 6108 - __main__ - DEBUG -   PID: 2740, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,859 - 6108 - __main__ - DEBUG -   PID: 2780, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,860 - 6108 - __main__ - DEBUG -   PID: 2852, Name: hmpalert.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,860 - 6108 - __main__ - DEBUG -   PID: 2896, Name: SynTPEnhService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,860 - 6108 - __main__ - DEBUG -   PID: 2904, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,861 - 6108 - __main__ - DEBUG -   PID: 2936, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,861 - 6108 - __main__ - DEBUG -   PID: 2948, Name: svchost.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:05:45,861 - 6108 - __main__ - DEBUG -   PID: 2956, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,861 - 6108 - __main__ - DEBUG -   PID: 2976, Name: svchost.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:05:45,862 - 6108 - __main__ - DEBUG -   PID: 3000, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,862 - 6108 - __main__ - DEBUG -   PID: 3112, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,862 - 6108 - __main__ - DEBUG -   PID: 3120, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,863 - 6108 - __main__ - DEBUG -   PID: 3128, Name: MemCompression, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,863 - 6108 - __main__ - DEBUG -   PID: 3240, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,863 - 6108 - __main__ - DEBUG -   PID: 3388, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,863 - 6108 - __main__ - DEBUG -   PID: 3500, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,864 - 6108 - __main__ - DEBUG -   PID: 3560, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,864 - 6108 - __main__ - DEBUG -   PID: 3564, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,864 - 6108 - __main__ - DEBUG -   PID: 3592, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,865 - 6108 - __main__ - DEBUG -   PID: 3692, Name: pycharm64.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,865 - 6108 - __main__ - DEBUG -   PID: 3728, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,865 - 6108 - __main__ - DEBUG -   PID: 3736, Name: audiodg.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,865 - 6108 - __main__ - DEBUG -   PID: 3784, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,866 - 6108 - __main__ - DEBUG -   PID: 3820, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,866 - 6108 - __main__ - DEBUG -   PID: 3868, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,867 - 6108 - __main__ - DEBUG -   PID: 3900, Name: OpenConsole.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,867 - 6108 - __main__ - DEBUG -   PID: 3944, Name: scheduler.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,867 - 6108 - __main__ - DEBUG -   PID: 3964, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,868 - 6108 - __main__ - DEBUG -   PID: 4032, Name: spoolsv.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,868 - 6108 - __main__ - DEBUG -   PID: 4120, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,868 - 6108 - __main__ - DEBUG -   PID: 4128, Name: svchost.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:05:45,869 - 6108 - __main__ - DEBUG -   PID: 4140, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,869 - 6108 - __main__ - DEBUG -   PID: 4220, Name: DAX3API.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,869 - 6108 - __main__ - DEBUG -   PID: 4228, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,870 - 6108 - __main__ - DEBUG -   PID: 4236, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,870 - 6108 - __main__ - DEBUG -   PID: 4248, Name: OfficeClickToRun.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,870 - 6108 - __main__ - DEBUG -   PID: 4264, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,871 - 6108 - __main__ - DEBUG -   PID: 4296, Name: FMService64.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,871 - 6108 - __main__ - DEBUG -   PID: 4312, Name: ibmpmsvc.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,871 - 6108 - __main__ - DEBUG -   PID: 4328, Name: esif_uf.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,872 - 6108 - __main__ - DEBUG -   PID: 4360, Name: OneApp.IGCC.WinService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,872 - 6108 - __main__ - DEBUG -   PID: 4376, Name: IpOverUsbSvc.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,872 - 6108 - __main__ - DEBUG -   PID: 4408, Name: SmartStandby.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,873 - 6108 - __main__ - DEBUG -   PID: 4416, Name: jhi_service.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,873 - 6108 - __main__ - DEBUG -   PID: 4428, Name: TbtP2pShortcutService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,873 - 6108 - __main__ - DEBUG -   PID: 4432, Name: LenovoVantageService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,874 - 6108 - __main__ - DEBUG -   PID: 4456, Name: LITSSvc.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,874 - 6108 - __main__ - DEBUG -   PID: 4480, Name: fsnotifier.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,874 - 6108 - __main__ - DEBUG -   PID: 4508, Name: uesAgentService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,875 - 6108 - __main__ - DEBUG -   PID: 4516, Name: MicrosoftSearchInBing.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,875 - 6108 - __main__ - DEBUG -   PID: 4528, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,876 - 6108 - __main__ - DEBUG -   PID: 4588, Name: dcagentservice.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,876 - 6108 - __main__ - DEBUG -   PID: 4620, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,876 - 6108 - __main__ - DEBUG -   PID: 4640, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,876 - 6108 - __main__ - DEBUG -   PID: 4708, Name: PolyStudioWindowsUpdateService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,877 - 6108 - __main__ - DEBUG -   PID: 4796, Name: SophosNtpService.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,877 - 6108 - __main__ - DEBUG -   PID: 4804, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,877 - 6108 - __main__ - DEBUG -   PID: 4808, Name: RtkAudUService64.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,877 - 6108 - __main__ - DEBUG -   PID: 4816, Name: SophosFS.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,878 - 6108 - __main__ - DEBUG -   PID: 4824, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,878 - 6108 - __main__ - DEBUG -   PID: 4936, Name: SophosLiveQueryService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,878 - 6108 - __main__ - DEBUG -   PID: 4956, Name: SSPService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,878 - 6108 - __main__ - DEBUG -   PID: 4968, Name: McsClient.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,879 - 6108 - __main__ - DEBUG -   PID: 4976, Name: SophosHealth.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,879 - 6108 - __main__ - DEBUG -   PID: 4992, Name: SynRpcServer.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,879 - 6108 - __main__ - DEBUG -   PID: 5020, Name: McsAgent.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,879 - 6108 - __main__ - DEBUG -   PID: 5132, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,880 - 6108 - __main__ - DEBUG -   PID: 5160, Name: WMIRegistrationService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,880 - 6108 - __main__ - DEBUG -   PID: 5184, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,880 - 6108 - __main__ - DEBUG -   PID: 5192, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,880 - 6108 - __main__ - DEBUG -   PID: 5316, Name: NgcIso.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,881 - 6108 - __main__ - DEBUG -   PID: 5324, Name: SecurityHealthSystray.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,881 - 6108 - __main__ - DEBUG -   PID: 5356, Name: SophosFileScanner.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,881 - 6108 - __main__ - DEBUG -   PID: 5424, Name: brnativehost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,882 - 6108 - __main__ - DEBUG -   PID: 5476, Name: LenovoVantage-(VantageCoreAddin).exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,882 - 6108 - __main__ - DEBUG -   PID: 5552, Name: conhost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,882 - 6108 - __main__ - DEBUG -   PID: 5692, Name: SophosOsquery.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,883 - 6108 - __main__ - DEBUG -   PID: 5892, Name: tphkload.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,883 - 6108 - __main__ - DEBUG -   PID: 5912, Name: PanGPS.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,883 - 6108 - __main__ - DEBUG -   PID: 6004, Name: SophosFileScanner.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,883 - 6108 - __main__ - DEBUG -   PID: 6108, Name: python.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,884 - 6108 - __main__ - DEBUG -   PID: 6156, Name: sihost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,884 - 6108 - __main__ - DEBUG -   PID: 6284, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,884 - 6108 - __main__ - DEBUG -   PID: 6516, Name: conhost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,885 - 6108 - __main__ - DEBUG -   PID: 6548, Name: WMIADAP.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,885 - 6108 - __main__ - DEBUG -   PID: 6616, Name: SynTPEnh.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,885 - 6108 - __main__ - DEBUG -   PID: 6796, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,885 - 6108 - __main__ - DEBUG -   PID: 6848, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,886 - 6108 - __main__ - DEBUG -   PID: 6916, Name: uesFileShadow.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,886 - 6108 - __main__ - DEBUG -   PID: 7052, Name: uesFaUser.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,886 - 6108 - __main__ - DEBUG -   PID: 7060, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,886 - 6108 - __main__ - DEBUG -   PID: 7108, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,887 - 6108 - __main__ - DEBUG -   PID: 7148, Name: FortiTray.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,887 - 6108 - __main__ - DEBUG -   PID: 7180, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,887 - 6108 - __main__ - DEBUG -   PID: 7252, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,887 - 6108 - __main__ - DEBUG -   PID: 7308, Name: Locator.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:05:45,887 - 6108 - __main__ - DEBUG -   PID: 7376, Name: CrossDeviceResume.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,888 - 6108 - __main__ - DEBUG -   PID: 7424, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,888 - 6108 - __main__ - DEBUG -   PID: 7452, Name: RuntimeBroker.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,888 - 6108 - __main__ - DEBUG -   PID: 7468, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,889 - 6108 - __main__ - DEBUG -   PID: 7556, Name: conhost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,889 - 6108 - __main__ - DEBUG -   PID: 7572, Name: VerifyTrustedFiles.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,889 - 6108 - __main__ - DEBUG -   PID: 7596, Name: msiexec.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,889 - 6108 - __main__ - DEBUG -   PID: 7704, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,890 - 6108 - __main__ - DEBUG -   PID: 7724, Name: MEDLP.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,890 - 6108 - __main__ - DEBUG -   PID: 8096, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,890 - 6108 - __main__ - DEBUG -   PID: 8236, Name: LenovoVantage-(GenericTelemetryAddin).exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,890 - 6108 - __main__ - DEBUG -   PID: 8448, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,890 - 6108 - __main__ - DEBUG -   PID: 8540, Name: conhost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,891 - 6108 - __main__ - DEBUG -   PID: 8664, Name: WmiPrvSE.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,891 - 6108 - __main__ - DEBUG -   PID: 8672, Name: SophosNetFilter.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,891 - 6108 - __main__ - DEBUG -   PID: 8728, Name: ACPipelogServer.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,892 - 6108 - __main__ - DEBUG -   PID: 8884, Name: wlanext.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,892 - 6108 - __main__ - DEBUG -   PID: 9020, Name: AggregatorHost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,892 - 6108 - __main__ - DEBUG -   PID: 9088, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,892 - 6108 - __main__ - DEBUG -   PID: 9096, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,892 - 6108 - __main__ - DEBUG -   PID: 9124, Name: bash.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,893 - 6108 - __main__ - DEBUG -   PID: 9336, Name: shtctky.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,893 - 6108 - __main__ - DEBUG -   PID: 9376, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,893 - 6108 - __main__ - DEBUG -   PID: 9420, Name: FCDBLog.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,893 - 6108 - __main__ - DEBUG -   PID: 9616, Name: FortiSSLVPNdaemon.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,894 - 6108 - __main__ - DEBUG -   PID: 9628, Name: FortiSettings.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,894 - 6108 - __main__ - DEBUG -   PID: 9640, Name: FortiVPN.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,894 - 6108 - __main__ - DEBUG -   PID: 9940, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,894 - 6108 - __main__ - DEBUG -   PID: 10012, Name: DAX3API.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,894 - 6108 - __main__ - DEBUG -   PID: 10224, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,895 - 6108 - __main__ - DEBUG -   PID: 10264, Name: taskhostw.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,895 - 6108 - __main__ - DEBUG -   PID: 10304, Name: SearchIndexer.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,895 - 6108 - __main__ - DEBUG -   PID: 10324, Name: explorer.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,895 - 6108 - __main__ - DEBUG -   PID: 10356, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,895 - 6108 - __main__ - DEBUG -   PID: 10508, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,896 - 6108 - __main__ - DEBUG -   PID: 10520, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,896 - 6108 - __main__ - DEBUG -   PID: 10540, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,896 - 6108 - __main__ - DEBUG -   PID: 10608, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,896 - 6108 - __main__ - DEBUG -   PID: 10672, Name: conhost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,896 - 6108 - __main__ - DEBUG -   PID: 10680, Name: ShellHost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,897 - 6108 - __main__ - DEBUG -   PID: 10756, Name: hpwuschd2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,897 - 6108 - __main__ - DEBUG -   PID: 11052, Name: PowerMgr.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,897 - 6108 - __main__ - DEBUG -   PID: 11076, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,897 - 6108 - __main__ - DEBUG -   PID: 11176, Name: CrossDeviceService.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,898 - 6108 - __main__ - DEBUG -   PID: 11188, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,898 - 6108 - __main__ - DEBUG -   PID: 11276, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,898 - 6108 - __main__ - DEBUG -   PID: 11412, Name: RuntimeBroker.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,899 - 6108 - __main__ - DEBUG -   PID: 11436, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,899 - 6108 - __main__ - DEBUG -   PID: 11492, Name: ctfmon.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,899 - 6108 - __main__ - DEBUG -   PID: 11520, Name: StartMenuExperienceHost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,900 - 6108 - __main__ - DEBUG -   PID: 11624, Name: SearchHost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,900 - 6108 - __main__ - DEBUG -   PID: 11628, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,901 - 6108 - __main__ - DEBUG -   PID: 11700, Name: conhost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,901 - 6108 - __main__ - DEBUG -   PID: 11748, Name: SynTPHelper.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,901 - 6108 - __main__ - DEBUG -   PID: 11912, Name: powershell.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,902 - 6108 - __main__ - DEBUG -   PID: 11956, Name: Widgets.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,902 - 6108 - __main__ - DEBUG -   PID: 12284, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,902 - 6108 - __main__ - DEBUG -   PID: 12632, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,902 - 6108 - __main__ - DEBUG -   PID: 12700, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,903 - 6108 - __main__ - DEBUG -   PID: 12828, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,903 - 6108 - __main__ - DEBUG -   PID: 12868, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,903 - 6108 - __main__ - DEBUG -   PID: 13032, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,903 - 6108 - __main__ - DEBUG -   PID: 13040, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,903 - 6108 - __main__ - DEBUG -   PID: 13292, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,904 - 6108 - __main__ - DEBUG -   PID: 13304, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,904 - 6108 - __main__ - DEBUG -   PID: 13492, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,904 - 6108 - __main__ - DEBUG -   PID: 13632, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,904 - 6108 - __main__ - DEBUG -   PID: 13844, Name: ctfmon.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,905 - 6108 - __main__ - DEBUG -   PID: 13916, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,905 - 6108 - __main__ - DEBUG -   PID: 13948, Name: QSHelper.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,905 - 6108 - __main__ - DEBUG -   PID: 14216, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,905 - 6108 - __main__ - DEBUG -   PID: 14312, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,906 - 6108 - __main__ - DEBUG -   PID: 14344, Name: RtkAudUService64.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,906 - 6108 - __main__ - DEBUG -   PID: 14360, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,906 - 6108 - __main__ - DEBUG -   PID: 14464, Name: SystemSettings.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,906 - 6108 - __main__ - DEBUG -   PID: 14520, Name: ApplicationFrameHost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,907 - 6108 - __main__ - DEBUG -   PID: 14592, Name: smartscreen.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,907 - 6108 - __main__ - DEBUG -   PID: 14688, Name: SecurityHealthService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,907 - 6108 - __main__ - DEBUG -   PID: 14760, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,907 - 6108 - __main__ - DEBUG -   PID: 14912, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,908 - 6108 - __main__ - DEBUG -   PID: 14956, Name: LenovoVantage-(GenericMessagingAddin).exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,908 - 6108 - __main__ - DEBUG -   PID: 15084, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,908 - 6108 - __main__ - DEBUG -   PID: 15100, Name: RuntimeBroker.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,908 - 6108 - __main__ - DEBUG -   PID: 15272, Name: MoUsoCoreWorker.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,909 - 6108 - __main__ - DEBUG -   PID: 15408, Name: Sophos UI.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,909 - 6108 - __main__ - DEBUG -   PID: 15444, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,909 - 6108 - __main__ - DEBUG -   PID: 15692, Name: PanGPA.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,909 - 6108 - __main__ - DEBUG -   PID: 15752, Name: OneDrive.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,910 - 6108 - __main__ - DEBUG -   PID: 15780, Name: OpenConsole.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,910 - 6108 - __main__ - DEBUG -   PID: 15988, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,910 - 6108 - __main__ - DEBUG -   PID: 16028, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,910 - 6108 - __main__ - DEBUG -   PID: 16164, Name: cmd.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,911 - 6108 - __main__ - DEBUG -   PID: 16228, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,911 - 6108 - __main__ - DEBUG -   PID: 16236, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,911 - 6108 - __main__ - DEBUG -   PID: 16276, Name: conhost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,911 - 6108 - __main__ - DEBUG -   PID: 16532, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,912 - 6108 - __main__ - DEBUG -   PID: 16556, Name: git.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,912 - 6108 - __main__ - DEBUG -   PID: 16804, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,912 - 6108 - __main__ - DEBUG -   PID: 16840, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,912 - 6108 - __main__ - DEBUG -   PID: 16884, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,912 - 6108 - __main__ - DEBUG -   PID: 16964, Name: ms-teams.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,913 - 6108 - __main__ - DEBUG -   PID: 17220, Name: RuntimeBroker.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,913 - 6108 - __main__ - DEBUG -   PID: 17268, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,913 - 6108 - __main__ - DEBUG -   PID: 17292, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,913 - 6108 - __main__ - DEBUG -   PID: 17456, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,914 - 6108 - __main__ - DEBUG -   PID: 17628, Name: taskhostw.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,914 - 6108 - __main__ - DEBUG -   PID: 17732, Name: LenovoVantage-(LenovoSystemUpdateAddin).exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,914 - 6108 - __main__ - DEBUG -   PID: 17780, Name: backgroundTaskHost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,914 - 6108 - __main__ - DEBUG -   PID: 17852, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,915 - 6108 - __main__ - DEBUG -   PID: 18024, Name: svchost.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:05:45,915 - 6108 - __main__ - DEBUG -   PID: 18028, Name: node.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,915 - 6108 - __main__ - DEBUG -   PID: 18196, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,916 - 6108 - __main__ - DEBUG -   PID: 18200, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,916 - 6108 - __main__ - DEBUG -   PID: 18240, Name: WmiPrvSE.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,916 - 6108 - __main__ - DEBUG -   PID: 18324, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,916 - 6108 - __main__ - DEBUG -   PID: 18352, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,916 - 6108 - __main__ - DEBUG -   PID: 18496, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,917 - 6108 - __main__ - DEBUG -   PID: 18616, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,917 - 6108 - __main__ - DEBUG -   PID: 18800, Name: bash.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,917 - 6108 - __main__ - DEBUG -   PID: 18988, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,917 - 6108 - __main__ - DEBUG -   PID: 19204, Name: RuntimeBroker.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,918 - 6108 - __main__ - DEBUG -   PID: 19252, Name: RuntimeBroker.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,918 - 6108 - __main__ - DEBUG -   PID: 19272, Name: WUDFHost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:05:45,918 - 6108 - __main__ - DEBUG -   PID: 19316, Name: conhost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,918 - 6108 - __main__ - DEBUG -   PID: 19360, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:05:45,918 - 6108 - __main__ - DEBUG -   PID: 19496, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,919 - 6108 - __main__ - DEBUG -   PID: 19524, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,919 - 6108 - __main__ - DEBUG -   PID: 19584, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,919 - 6108 - __main__ - DEBUG -   PID: 19804, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,919 - 6108 - __main__ - DEBUG -   PID: 19948, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,919 - 6108 - __main__ - DEBUG -   PID: 20168, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,920 - 6108 - __main__ - DEBUG -   PID: 20196, Name: cmd.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,920 - 6108 - __main__ - DEBUG -   PID: 20216, Name: conhost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,920 - 6108 - __main__ - DEBUG -   PID: 20260, Name: brnativehost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:05:45,920 - 6108 - __main__ - DEBUG - --- End Process List ---
+2025-07-24 09:05:45,920 - 6108 - __main__ - INFO - Attempting installation of LocalOffice_Agent.exe with argument set 1/1: /silent
+2025-07-24 09:05:45,920 - 6108 - __main__ - DEBUG - Preparing to run installer: C:\Users\zkperera\PycharmProjects\AutomateSoftwares\Softwares\LocalOffice_Agent.exe with args: ['/silent']
+2025-07-24 09:05:45,921 - 6108 - __main__ - INFO - Executing command: C:\Users\zkperera\PycharmProjects\AutomateSoftwares\Softwares\LocalOffice_Agent.exe /silent
+2025-07-24 09:06:02,743 - 6108 - __main__ - ERROR - Command failed for 'C:\Users\zkperera\PycharmProjects\AutomateSoftwares\Softwares\LocalOffice_Agent.exe' with exit code 2147753984
+Traceback (most recent call last):
+  File "C:\Users\zkperera\PycharmProjects\AutomateSoftwares\installer.py", line 449, in run_installer
+    process = subprocess.run(
+        full_command, check=True, capture_output=True, text=True, shell=False
+    )
+  File "C:\Users\zkperera\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['C:\\Users\\zkperera\\PycharmProjects\\AutomateSoftwares\\Softwares\\LocalOffice_Agent.exe', '/silent']' returned non-zero exit status 2147753984.
+2025-07-24 09:06:02,759 - 6108 - __main__ - WARNING - Argument set 1 for LocalOffice_Agent.exe failed with exit code 2147753984.
+2025-07-24 09:06:02,763 - 6108 - __main__ - ERROR - All argument sets failed for LocalOffice_Agent.exe.
+2025-07-24 09:06:02,763 - 6108 - __main__ - ERROR - An unexpected error occurred during installation of Local Office Agent: Command '['C:\\Users\\zkperera\\PycharmProjects\\AutomateSoftwares\\Softwares\\LocalOffice_Agent.exe', '/silent']' returned non-zero exit status 2147753984.
+2025-07-24 09:06:02,763 - 6108 - __main__ - ERROR - Error installing Local Office Agent: Command '['C:\\Users\\zkperera\\PycharmProjects\\AutomateSoftwares\\Softwares\\LocalOffice_Agent.exe', '/silent']' returned non-zero exit status 2147753984.
+2025-07-24 09:06:02,764 - 6108 - __main__ - INFO - 
+==================================================
+Starting installation for: Microsoft Office
+==================================================
+
+2025-07-24 09:06:02,808 - 6108 - __main__ - WARNING - No hash provided for OfficeSetup.exe. Cannot verify integrity.
+2025-07-24 09:06:02,810 - 6108 - __main__ - INFO - Generated config.xml for Office at C:\Users\zkperera\PycharmProjects\AutomateSoftwares\Softwares\config.xml
+2025-07-24 09:06:02,811 - 6108 - __main__ - INFO - 'Microsoft Office' is already installed (check path exists: C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE). Skipping.
+2025-07-24 09:06:02,811 - 6108 - __main__ - INFO - 
+==================================================
+Starting installation for: SAP GUI 8.0
+==================================================
+
+2025-07-24 09:06:02,812 - 6108 - __main__ - WARNING - No hash provided for SCCC_SAPGUI_8.0_20230823_1623.exe. Cannot verify integrity.
+2025-07-24 09:06:02,812 - 6108 - __main__ - INFO - 'SAP GUI 8.0' is already installed (check path exists: C:\Program Files (x86)\SAP\FrontEnd\SAPgui). Skipping.
+2025-07-24 09:06:02,812 - 6108 - __main__ - INFO - 
+==================================================
+Starting installation for: Sophos
+==================================================
+
+2025-07-24 09:06:02,813 - 6108 - __main__ - WARNING - No hash provided for SophosSetup.exe. Cannot verify integrity.
+2025-07-24 09:06:02,813 - 6108 - __main__ - INFO - --- Running pre-install cleanup ---
+2025-07-24 09:06:02,813 - 6108 - __main__ - INFO - Removing directory: C:\ProgramData\Sophos
+2025-07-24 09:06:05,378 - 6108 - __main__ - INFO - Removing directory: C:\Program Files\Sophos
+2025-07-24 09:06:05,525 - 6108 - __main__ - INFO - 'Sophos' is already installed (check path exists: C:\Program Files\Sophos\Sophos UI). Skipping.
+2025-07-24 09:06:05,525 - 6108 - __main__ - INFO - 
+==================================================
+Starting installation for: WPS Pro
+==================================================
+
+2025-07-24 09:06:05,527 - 6108 - __main__ - WARNING - No hash provided for WPS-Pro-v10330.msi. Cannot verify integrity.
+2025-07-24 09:06:05,527 - 6108 - __main__ - INFO - --- Running pre-install cleanup ---
+2025-07-24 09:06:05,527 - 6108 - __main__ - INFO - Running installer for 'WPS Pro' from 'C:\Users\zkperera\PycharmProjects\AutomateSoftwares\Softwares\WPS-Pro-v10330.msi'
+2025-07-24 09:06:05,527 - 6108 - __main__ - DEBUG - --- Process List Snapshot (pre-install) ---
+2025-07-24 09:06:05,533 - 6108 - __main__ - DEBUG -   PID: 0, Name: System Idle Process, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,533 - 6108 - __main__ - DEBUG -   PID: 4, Name: System, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,533 - 6108 - __main__ - DEBUG -   PID: 140, Name: , User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,534 - 6108 - __main__ - DEBUG -   PID: 180, Name: Registry, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,534 - 6108 - __main__ - DEBUG -   PID: 644, Name: smss.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,534 - 6108 - __main__ - DEBUG -   PID: 672, Name: wininit.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,534 - 6108 - __main__ - DEBUG -   PID: 800, Name: csrss.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,534 - 6108 - __main__ - DEBUG -   PID: 956, Name: csrss.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,535 - 6108 - __main__ - DEBUG -   PID: 1032, Name: winlogon.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,535 - 6108 - __main__ - DEBUG -   PID: 1060, Name: services.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,535 - 6108 - __main__ - DEBUG -   PID: 1080, Name: conhost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,535 - 6108 - __main__ - DEBUG -   PID: 1088, Name: LsaIso.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,536 - 6108 - __main__ - DEBUG -   PID: 1096, Name: lsass.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,536 - 6108 - __main__ - DEBUG -   PID: 1104, Name: conhost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,536 - 6108 - __main__ - DEBUG -   PID: 1240, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,536 - 6108 - __main__ - DEBUG -   PID: 1252, Name: WUDFHost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,536 - 6108 - __main__ - DEBUG -   PID: 1260, Name: WUDFHost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,536 - 6108 - __main__ - DEBUG -   PID: 1288, Name: fontdrvhost.exe, User: Font Driver Host\UMFD-0
+2025-07-24 09:06:05,537 - 6108 - __main__ - DEBUG -   PID: 1296, Name: fontdrvhost.exe, User: Font Driver Host\UMFD-1
+2025-07-24 09:06:05,537 - 6108 - __main__ - DEBUG -   PID: 1372, Name: svchost.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:06:05,537 - 6108 - __main__ - DEBUG -   PID: 1380, Name: WUDFHost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,537 - 6108 - __main__ - DEBUG -   PID: 1460, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,537 - 6108 - __main__ - DEBUG -   PID: 1520, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,537 - 6108 - __main__ - DEBUG -   PID: 1536, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,537 - 6108 - __main__ - DEBUG -   PID: 1572, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,538 - 6108 - __main__ - DEBUG -   PID: 1580, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,538 - 6108 - __main__ - DEBUG -   PID: 1604, Name: WidgetService.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,538 - 6108 - __main__ - DEBUG -   PID: 1608, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,538 - 6108 - __main__ - DEBUG -   PID: 1620, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,538 - 6108 - __main__ - DEBUG -   PID: 1628, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,538 - 6108 - __main__ - DEBUG -   PID: 1648, Name: dwm.exe, User: Window Manager\DWM-1
+2025-07-24 09:06:05,538 - 6108 - __main__ - DEBUG -   PID: 1700, Name: svchost.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:06:05,539 - 6108 - __main__ - DEBUG -   PID: 1720, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,539 - 6108 - __main__ - DEBUG -   PID: 1736, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,539 - 6108 - __main__ - DEBUG -   PID: 1744, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,539 - 6108 - __main__ - DEBUG -   PID: 1760, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,539 - 6108 - __main__ - DEBUG -   PID: 1816, Name: IntelCpHDCPSvc.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,539 - 6108 - __main__ - DEBUG -   PID: 1848, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,540 - 6108 - __main__ - DEBUG -   PID: 1868, Name: igfxEMN.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,540 - 6108 - __main__ - DEBUG -   PID: 1912, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,540 - 6108 - __main__ - DEBUG -   PID: 1920, Name: DriverCtrl.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,540 - 6108 - __main__ - DEBUG -   PID: 1924, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,540 - 6108 - __main__ - DEBUG -   PID: 1932, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,540 - 6108 - __main__ - DEBUG -   PID: 1944, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,541 - 6108 - __main__ - DEBUG -   PID: 2008, Name: svchost.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:06:05,541 - 6108 - __main__ - DEBUG -   PID: 2036, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,541 - 6108 - __main__ - DEBUG -   PID: 2060, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,542 - 6108 - __main__ - DEBUG -   PID: 2068, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,542 - 6108 - __main__ - DEBUG -   PID: 2092, Name: SEDService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,542 - 6108 - __main__ - DEBUG -   PID: 2168, Name: tposd.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,542 - 6108 - __main__ - DEBUG -   PID: 2180, Name: RuntimeBroker.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,542 - 6108 - __main__ - DEBUG -   PID: 2256, Name: WmiPrvSE.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:06:05,543 - 6108 - __main__ - DEBUG -   PID: 2272, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,543 - 6108 - __main__ - DEBUG -   PID: 2308, Name: ec_acp64service.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,543 - 6108 - __main__ - DEBUG -   PID: 2348, Name: igfxCUIServiceN.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,543 - 6108 - __main__ - DEBUG -   PID: 2616, Name: WUDFHost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,543 - 6108 - __main__ - DEBUG -   PID: 2668, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,543 - 6108 - __main__ - DEBUG -   PID: 2716, Name: sh.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,544 - 6108 - __main__ - DEBUG -   PID: 2740, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,544 - 6108 - __main__ - DEBUG -   PID: 2780, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,544 - 6108 - __main__ - DEBUG -   PID: 2852, Name: hmpalert.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,544 - 6108 - __main__ - DEBUG -   PID: 2896, Name: SynTPEnhService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,545 - 6108 - __main__ - DEBUG -   PID: 2904, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,545 - 6108 - __main__ - DEBUG -   PID: 2936, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,545 - 6108 - __main__ - DEBUG -   PID: 2948, Name: svchost.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:06:05,545 - 6108 - __main__ - DEBUG -   PID: 2956, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,546 - 6108 - __main__ - DEBUG -   PID: 2976, Name: svchost.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:06:05,546 - 6108 - __main__ - DEBUG -   PID: 3000, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,546 - 6108 - __main__ - DEBUG -   PID: 3112, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,546 - 6108 - __main__ - DEBUG -   PID: 3120, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,547 - 6108 - __main__ - DEBUG -   PID: 3128, Name: MemCompression, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,547 - 6108 - __main__ - DEBUG -   PID: 3240, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,547 - 6108 - __main__ - DEBUG -   PID: 3388, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,547 - 6108 - __main__ - DEBUG -   PID: 3500, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,548 - 6108 - __main__ - DEBUG -   PID: 3560, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,548 - 6108 - __main__ - DEBUG -   PID: 3564, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,548 - 6108 - __main__ - DEBUG -   PID: 3592, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,549 - 6108 - __main__ - DEBUG -   PID: 3692, Name: pycharm64.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,549 - 6108 - __main__ - DEBUG -   PID: 3728, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,549 - 6108 - __main__ - DEBUG -   PID: 3736, Name: audiodg.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,549 - 6108 - __main__ - DEBUG -   PID: 3784, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,550 - 6108 - __main__ - DEBUG -   PID: 3820, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,550 - 6108 - __main__ - DEBUG -   PID: 3868, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,550 - 6108 - __main__ - DEBUG -   PID: 3900, Name: OpenConsole.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,550 - 6108 - __main__ - DEBUG -   PID: 3944, Name: scheduler.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,551 - 6108 - __main__ - DEBUG -   PID: 3964, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,551 - 6108 - __main__ - DEBUG -   PID: 4032, Name: spoolsv.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,551 - 6108 - __main__ - DEBUG -   PID: 4120, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,551 - 6108 - __main__ - DEBUG -   PID: 4128, Name: svchost.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:06:05,552 - 6108 - __main__ - DEBUG -   PID: 4140, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,552 - 6108 - __main__ - DEBUG -   PID: 4220, Name: DAX3API.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,552 - 6108 - __main__ - DEBUG -   PID: 4228, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,553 - 6108 - __main__ - DEBUG -   PID: 4236, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,553 - 6108 - __main__ - DEBUG -   PID: 4248, Name: OfficeClickToRun.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,553 - 6108 - __main__ - DEBUG -   PID: 4264, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,553 - 6108 - __main__ - DEBUG -   PID: 4296, Name: FMService64.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,554 - 6108 - __main__ - DEBUG -   PID: 4312, Name: ibmpmsvc.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,554 - 6108 - __main__ - DEBUG -   PID: 4328, Name: esif_uf.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,554 - 6108 - __main__ - DEBUG -   PID: 4360, Name: OneApp.IGCC.WinService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,554 - 6108 - __main__ - DEBUG -   PID: 4376, Name: IpOverUsbSvc.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,555 - 6108 - __main__ - DEBUG -   PID: 4408, Name: SmartStandby.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,555 - 6108 - __main__ - DEBUG -   PID: 4416, Name: jhi_service.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,555 - 6108 - __main__ - DEBUG -   PID: 4428, Name: TbtP2pShortcutService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,555 - 6108 - __main__ - DEBUG -   PID: 4432, Name: LenovoVantageService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,555 - 6108 - __main__ - DEBUG -   PID: 4456, Name: LITSSvc.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,556 - 6108 - __main__ - DEBUG -   PID: 4480, Name: fsnotifier.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,556 - 6108 - __main__ - DEBUG -   PID: 4508, Name: uesAgentService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,556 - 6108 - __main__ - DEBUG -   PID: 4516, Name: MicrosoftSearchInBing.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,556 - 6108 - __main__ - DEBUG -   PID: 4528, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,557 - 6108 - __main__ - DEBUG -   PID: 4588, Name: dcagentservice.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,557 - 6108 - __main__ - DEBUG -   PID: 4620, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,557 - 6108 - __main__ - DEBUG -   PID: 4640, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,557 - 6108 - __main__ - DEBUG -   PID: 4708, Name: PolyStudioWindowsUpdateService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,557 - 6108 - __main__ - DEBUG -   PID: 4796, Name: SophosNtpService.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,557 - 6108 - __main__ - DEBUG -   PID: 4804, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,558 - 6108 - __main__ - DEBUG -   PID: 4808, Name: RtkAudUService64.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,558 - 6108 - __main__ - DEBUG -   PID: 4816, Name: SophosFS.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,558 - 6108 - __main__ - DEBUG -   PID: 4824, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,558 - 6108 - __main__ - DEBUG -   PID: 4936, Name: SophosLiveQueryService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,559 - 6108 - __main__ - DEBUG -   PID: 4956, Name: SSPService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,559 - 6108 - __main__ - DEBUG -   PID: 4968, Name: McsClient.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,559 - 6108 - __main__ - DEBUG -   PID: 4976, Name: SophosHealth.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,559 - 6108 - __main__ - DEBUG -   PID: 4992, Name: SynRpcServer.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,559 - 6108 - __main__ - DEBUG -   PID: 5020, Name: McsAgent.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,559 - 6108 - __main__ - DEBUG -   PID: 5132, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,559 - 6108 - __main__ - DEBUG -   PID: 5160, Name: WMIRegistrationService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,560 - 6108 - __main__ - DEBUG -   PID: 5184, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,560 - 6108 - __main__ - DEBUG -   PID: 5192, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,560 - 6108 - __main__ - DEBUG -   PID: 5316, Name: NgcIso.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,561 - 6108 - __main__ - DEBUG -   PID: 5324, Name: SecurityHealthSystray.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,561 - 6108 - __main__ - DEBUG -   PID: 5356, Name: SophosFileScanner.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,561 - 6108 - __main__ - DEBUG -   PID: 5424, Name: brnativehost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,562 - 6108 - __main__ - DEBUG -   PID: 5476, Name: LenovoVantage-(VantageCoreAddin).exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,562 - 6108 - __main__ - DEBUG -   PID: 5552, Name: conhost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,562 - 6108 - __main__ - DEBUG -   PID: 5692, Name: SophosOsquery.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,562 - 6108 - __main__ - DEBUG -   PID: 5892, Name: tphkload.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,563 - 6108 - __main__ - DEBUG -   PID: 5912, Name: PanGPS.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,563 - 6108 - __main__ - DEBUG -   PID: 6004, Name: SophosFileScanner.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,563 - 6108 - __main__ - DEBUG -   PID: 6108, Name: python.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,564 - 6108 - __main__ - DEBUG -   PID: 6156, Name: sihost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,564 - 6108 - __main__ - DEBUG -   PID: 6284, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,565 - 6108 - __main__ - DEBUG -   PID: 6516, Name: conhost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,565 - 6108 - __main__ - DEBUG -   PID: 6548, Name: WMIADAP.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,565 - 6108 - __main__ - DEBUG -   PID: 6616, Name: SynTPEnh.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,566 - 6108 - __main__ - DEBUG -   PID: 6796, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,566 - 6108 - __main__ - DEBUG -   PID: 6848, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,566 - 6108 - __main__ - DEBUG -   PID: 6916, Name: uesFileShadow.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,567 - 6108 - __main__ - DEBUG -   PID: 7052, Name: uesFaUser.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,567 - 6108 - __main__ - DEBUG -   PID: 7060, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,567 - 6108 - __main__ - DEBUG -   PID: 7108, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,568 - 6108 - __main__ - DEBUG -   PID: 7148, Name: FortiTray.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,568 - 6108 - __main__ - DEBUG -   PID: 7180, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,568 - 6108 - __main__ - DEBUG -   PID: 7252, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,568 - 6108 - __main__ - DEBUG -   PID: 7308, Name: Locator.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:06:05,569 - 6108 - __main__ - DEBUG -   PID: 7376, Name: CrossDeviceResume.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,569 - 6108 - __main__ - DEBUG -   PID: 7424, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,569 - 6108 - __main__ - DEBUG -   PID: 7452, Name: RuntimeBroker.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,570 - 6108 - __main__ - DEBUG -   PID: 7468, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,571 - 6108 - __main__ - DEBUG -   PID: 7556, Name: conhost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,571 - 6108 - __main__ - DEBUG -   PID: 7572, Name: VerifyTrustedFiles.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,571 - 6108 - __main__ - DEBUG -   PID: 7596, Name: msiexec.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,572 - 6108 - __main__ - DEBUG -   PID: 7704, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,572 - 6108 - __main__ - DEBUG -   PID: 7724, Name: MEDLP.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,572 - 6108 - __main__ - DEBUG -   PID: 8096, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,572 - 6108 - __main__ - DEBUG -   PID: 8236, Name: LenovoVantage-(GenericTelemetryAddin).exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,573 - 6108 - __main__ - DEBUG -   PID: 8448, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,573 - 6108 - __main__ - DEBUG -   PID: 8540, Name: conhost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,573 - 6108 - __main__ - DEBUG -   PID: 8664, Name: WmiPrvSE.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,573 - 6108 - __main__ - DEBUG -   PID: 8672, Name: SophosNetFilter.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,574 - 6108 - __main__ - DEBUG -   PID: 8728, Name: ACPipelogServer.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,574 - 6108 - __main__ - DEBUG -   PID: 8884, Name: wlanext.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,574 - 6108 - __main__ - DEBUG -   PID: 9020, Name: AggregatorHost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,574 - 6108 - __main__ - DEBUG -   PID: 9088, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,575 - 6108 - __main__ - DEBUG -   PID: 9096, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,575 - 6108 - __main__ - DEBUG -   PID: 9124, Name: bash.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,575 - 6108 - __main__ - DEBUG -   PID: 9336, Name: shtctky.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,575 - 6108 - __main__ - DEBUG -   PID: 9376, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,575 - 6108 - __main__ - DEBUG -   PID: 9420, Name: FCDBLog.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,576 - 6108 - __main__ - DEBUG -   PID: 9616, Name: FortiSSLVPNdaemon.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,576 - 6108 - __main__ - DEBUG -   PID: 9628, Name: FortiSettings.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,576 - 6108 - __main__ - DEBUG -   PID: 9640, Name: FortiVPN.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,577 - 6108 - __main__ - DEBUG -   PID: 9940, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,577 - 6108 - __main__ - DEBUG -   PID: 10012, Name: DAX3API.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,578 - 6108 - __main__ - DEBUG -   PID: 10224, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,578 - 6108 - __main__ - DEBUG -   PID: 10264, Name: taskhostw.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,578 - 6108 - __main__ - DEBUG -   PID: 10304, Name: SearchIndexer.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,579 - 6108 - __main__ - DEBUG -   PID: 10324, Name: explorer.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,579 - 6108 - __main__ - DEBUG -   PID: 10356, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,579 - 6108 - __main__ - DEBUG -   PID: 10508, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,580 - 6108 - __main__ - DEBUG -   PID: 10520, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,580 - 6108 - __main__ - DEBUG -   PID: 10540, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,580 - 6108 - __main__ - DEBUG -   PID: 10608, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,581 - 6108 - __main__ - DEBUG -   PID: 10672, Name: conhost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,581 - 6108 - __main__ - DEBUG -   PID: 10680, Name: ShellHost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,581 - 6108 - __main__ - DEBUG -   PID: 10756, Name: hpwuschd2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,582 - 6108 - __main__ - DEBUG -   PID: 11052, Name: PowerMgr.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,582 - 6108 - __main__ - DEBUG -   PID: 11076, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,582 - 6108 - __main__ - DEBUG -   PID: 11176, Name: CrossDeviceService.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,583 - 6108 - __main__ - DEBUG -   PID: 11188, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,583 - 6108 - __main__ - DEBUG -   PID: 11276, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,583 - 6108 - __main__ - DEBUG -   PID: 11412, Name: RuntimeBroker.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,584 - 6108 - __main__ - DEBUG -   PID: 11436, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,584 - 6108 - __main__ - DEBUG -   PID: 11520, Name: StartMenuExperienceHost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,585 - 6108 - __main__ - DEBUG -   PID: 11624, Name: SearchHost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,585 - 6108 - __main__ - DEBUG -   PID: 11628, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,585 - 6108 - __main__ - DEBUG -   PID: 11700, Name: conhost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,586 - 6108 - __main__ - DEBUG -   PID: 11748, Name: SynTPHelper.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,586 - 6108 - __main__ - DEBUG -   PID: 11912, Name: powershell.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,586 - 6108 - __main__ - DEBUG -   PID: 11956, Name: Widgets.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,587 - 6108 - __main__ - DEBUG -   PID: 12284, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,587 - 6108 - __main__ - DEBUG -   PID: 12632, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,587 - 6108 - __main__ - DEBUG -   PID: 12700, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,588 - 6108 - __main__ - DEBUG -   PID: 12828, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,588 - 6108 - __main__ - DEBUG -   PID: 12868, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,589 - 6108 - __main__ - DEBUG -   PID: 13032, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,589 - 6108 - __main__ - DEBUG -   PID: 13040, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,589 - 6108 - __main__ - DEBUG -   PID: 13292, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,590 - 6108 - __main__ - DEBUG -   PID: 13304, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,590 - 6108 - __main__ - DEBUG -   PID: 13492, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,590 - 6108 - __main__ - DEBUG -   PID: 13632, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,591 - 6108 - __main__ - DEBUG -   PID: 13844, Name: ctfmon.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,591 - 6108 - __main__ - DEBUG -   PID: 13916, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,591 - 6108 - __main__ - DEBUG -   PID: 13948, Name: QSHelper.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,592 - 6108 - __main__ - DEBUG -   PID: 14216, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,592 - 6108 - __main__ - DEBUG -   PID: 14312, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,592 - 6108 - __main__ - DEBUG -   PID: 14344, Name: RtkAudUService64.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,593 - 6108 - __main__ - DEBUG -   PID: 14360, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,593 - 6108 - __main__ - DEBUG -   PID: 14428, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,594 - 6108 - __main__ - DEBUG -   PID: 14464, Name: SystemSettings.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,594 - 6108 - __main__ - DEBUG -   PID: 14520, Name: ApplicationFrameHost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,594 - 6108 - __main__ - DEBUG -   PID: 14592, Name: smartscreen.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,595 - 6108 - __main__ - DEBUG -   PID: 14688, Name: SecurityHealthService.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,595 - 6108 - __main__ - DEBUG -   PID: 14760, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,595 - 6108 - __main__ - DEBUG -   PID: 14912, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,596 - 6108 - __main__ - DEBUG -   PID: 14956, Name: LenovoVantage-(GenericMessagingAddin).exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,596 - 6108 - __main__ - DEBUG -   PID: 15084, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,596 - 6108 - __main__ - DEBUG -   PID: 15100, Name: RuntimeBroker.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,597 - 6108 - __main__ - DEBUG -   PID: 15272, Name: MoUsoCoreWorker.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,597 - 6108 - __main__ - DEBUG -   PID: 15408, Name: Sophos UI.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,597 - 6108 - __main__ - DEBUG -   PID: 15444, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,598 - 6108 - __main__ - DEBUG -   PID: 15692, Name: PanGPA.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,598 - 6108 - __main__ - DEBUG -   PID: 15752, Name: OneDrive.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,599 - 6108 - __main__ - DEBUG -   PID: 15780, Name: OpenConsole.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,599 - 6108 - __main__ - DEBUG -   PID: 15988, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,599 - 6108 - __main__ - DEBUG -   PID: 16028, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,600 - 6108 - __main__ - DEBUG -   PID: 16164, Name: cmd.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,600 - 6108 - __main__ - DEBUG -   PID: 16228, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,600 - 6108 - __main__ - DEBUG -   PID: 16236, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,601 - 6108 - __main__ - DEBUG -   PID: 16276, Name: conhost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,601 - 6108 - __main__ - DEBUG -   PID: 16532, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,601 - 6108 - __main__ - DEBUG -   PID: 16804, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,602 - 6108 - __main__ - DEBUG -   PID: 16840, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,602 - 6108 - __main__ - DEBUG -   PID: 16884, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,602 - 6108 - __main__ - DEBUG -   PID: 16964, Name: ms-teams.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,603 - 6108 - __main__ - DEBUG -   PID: 17220, Name: RuntimeBroker.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,603 - 6108 - __main__ - DEBUG -   PID: 17268, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,603 - 6108 - __main__ - DEBUG -   PID: 17292, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,604 - 6108 - __main__ - DEBUG -   PID: 17456, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,605 - 6108 - __main__ - DEBUG -   PID: 17628, Name: taskhostw.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,605 - 6108 - __main__ - DEBUG -   PID: 17732, Name: LenovoVantage-(LenovoSystemUpdateAddin).exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,605 - 6108 - __main__ - DEBUG -   PID: 17780, Name: backgroundTaskHost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,605 - 6108 - __main__ - DEBUG -   PID: 17852, Name: svchost.exe, User: NT AUTHORITY\SYSTEM
+2025-07-24 09:06:05,605 - 6108 - __main__ - DEBUG -   PID: 18024, Name: svchost.exe, User: NT AUTHORITY\NETWORK SERVICE
+2025-07-24 09:06:05,605 - 6108 - __main__ - DEBUG -   PID: 18028, Name: node.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,606 - 6108 - __main__ - DEBUG -   PID: 18196, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,606 - 6108 - __main__ - DEBUG -   PID: 18200, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,606 - 6108 - __main__ - DEBUG -   PID: 18240, Name: WmiPrvSE.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,606 - 6108 - __main__ - DEBUG -   PID: 18324, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,607 - 6108 - __main__ - DEBUG -   PID: 18352, Name: msedgewebview2.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,607 - 6108 - __main__ - DEBUG -   PID: 18496, Name: msedge.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,607 - 6108 - __main__ - DEBUG -   PID: 18616, Name: svchost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,608 - 6108 - __main__ - DEBUG -   PID: 18800, Name: bash.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,608 - 6108 - __main__ - DEBUG -   PID: 18988, Name: svchost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,608 - 6108 - __main__ - DEBUG -   PID: 19204, Name: RuntimeBroker.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,609 - 6108 - __main__ - DEBUG -   PID: 19252, Name: RuntimeBroker.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,609 - 6108 - __main__ - DEBUG -   PID: 19272, Name: WUDFHost.exe, User: NT AUTHORITY\LOCAL SERVICE
+2025-07-24 09:06:05,609 - 6108 - __main__ - DEBUG -   PID: 19496, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,610 - 6108 - __main__ - DEBUG -   PID: 19524, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,610 - 6108 - __main__ - DEBUG -   PID: 19584, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,610 - 6108 - __main__ - DEBUG -   PID: 19804, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,611 - 6108 - __main__ - DEBUG -   PID: 19948, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,611 - 6108 - __main__ - DEBUG -   PID: 20168, Name: chrome.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,611 - 6108 - __main__ - DEBUG -   PID: 20196, Name: cmd.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,612 - 6108 - __main__ - DEBUG -   PID: 20216, Name: conhost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,612 - 6108 - __main__ - DEBUG -   PID: 20260, Name: brnativehost.exe, User: INSEE\ZKPERERA
+2025-07-24 09:06:05,612 - 6108 - __main__ - DEBUG - --- End Process List ---
+2025-07-24 09:06:05,612 - 6108 - __main__ - INFO - Attempting installation of WPS-Pro-v10330.msi with argument set 1/1: /qn /norestart /L*vx %TEMP%\wps_install_log.txt
+2025-07-24 09:06:05,613 - 6108 - __main__ - DEBUG - Preparing to run installer: C:\Users\zkperera\PycharmProjects\AutomateSoftwares\Softwares\WPS-Pro-v10330.msi with args: ['/qn', '/norestart', '/L*vx', '%TEMP%\\wps_install_log.txt']
+2025-07-24 09:06:05,613 - 6108 - __main__ - INFO - Executing command: msiexec.exe /i C:\Users\zkperera\PycharmProjects\AutomateSoftwares\Softwares\WPS-Pro-v10330.msi /qn /norestart /L*vx C:\Users\zkperera\AppData\Local\Temp\wps_install_log.txt
+2025-07-24 09:06:11,652 - 6108 - __main__ - DEBUG - Installer process completed for C:\Users\zkperera\PycharmProjects\AutomateSoftwares\Softwares\WPS-Pro-v10330.msi.
+2025-07-24 09:06:11,652 - 6108 - __main__ - DEBUG - Installer Return Code: 0
+2025-07-24 09:06:11,652 - 6108 - __main__ - INFO - Successfully ran installer WPS-Pro-v10330.msi with argument set 1.
+2025-07-24 09:06:11,652 - 6108 - __main__ - INFO - Watching for process 'wps_setup.exe' to start...
+2025-07-24 09:06:12,907 - 6108 - __main__ - INFO - Process 'wps_setup.exe' found with PID 13120. Now waiting for it to finish.

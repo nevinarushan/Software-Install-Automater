@@ -1,0 +1,19 @@
+2025-07-24 09:05:37,151 - 1444 - __main__ - INFO - ==== Installation script started at 2025-07-24 09:05:37.151609 ====
+2025-07-24 09:05:37,152 - 1444 - __main__ - DEBUG - ==================== System Information ====================
+2025-07-24 09:05:37,156 - 1444 - __main__ - DEBUG - ==================== Environment Variables ====================
+2025-07-24 09:05:37,156 - 1444 - __main__ - DEBUG - ==========================================================
+2025-07-24 09:05:37,156 - 1444 - __main__ - DEBUG - --- Running Pre-flight System Checks ---
+2025-07-24 09:05:37,453 - 1444 - __main__ - DEBUG - Checking disk space on 'C:': 35.69 GB free.
+2025-07-24 09:05:37,453 - 1444 - __main__ - DEBUG - Checking for internet connectivity...
+2025-07-24 09:05:37,622 - 1444 - __main__ - DEBUG - Internet connection verified.
+2025-07-24 09:05:37,622 - 1444 - __main__ - DEBUG - --- Checking status of critical Windows services ---
+2025-07-24 09:05:37,635 - 1444 - __main__ - DEBUG - Checking service 'msiserver': Status is 'stopped', Start type is 'manual'.
+2025-07-24 09:05:37,635 - 1444 - __main__ - DEBUG - Service 'msiserver' is stopped. Attempting to start it...
+2025-07-24 09:05:39,831 - 1444 - __main__ - DEBUG - Service 'msiserver' started successfully.
+2025-07-24 09:05:39,835 - 1444 - __main__ - DEBUG - Checking service 'BITS': Status is 'running', Start type is 'automatic'.
+2025-07-24 09:05:39,836 - 1444 - __main__ - WARNING - IMPORTANT: For Sophos or other AV installations, ensure Tamper Protection is DISABLED in the central dashboard before running.
+2025-07-24 09:05:39,836 - 1444 - __main__ - WARNING - IMPORTANT: Ensure this script is run from a trusted location or whitelisted in any existing security software to prevent it from being blocked.
+2025-07-24 09:05:39,836 - 1444 - __main__ - WARNING - IMPORTANT: This script extracts files to a temporary directory in %LOCALAPPDATA% (C:\Users\zkperera\AppData\Local\AutomateSoftwares). Some security policies may block execution from this location. Please ensure the path is trusted.
+2025-07-24 09:05:39,836 - 1444 - __main__ - INFO - --- Pre-flight System Checks Passed ---
+2025-07-24 09:05:39,836 - 1444 - __main__ - WARNING - Please ensure that User Account Control (UAC) is not blocking silent installations.
+2025-07-24 09:05:39,838 - 1444 - __main__ - WARNING - Not running as admin. Attempting to relaunch with elevated privileges...
