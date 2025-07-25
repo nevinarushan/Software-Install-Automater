@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['installer.py'],
+    ['scripts/installer.py'],
     pathex=[],
     binaries=[],
-    datas=[("software_config.json", ".")],
+    datas=[("software_config.json", "."), ("scripts/chrome_installer.py", "scripts"), ("scripts/office_installer.py", "scripts"), ("scripts/forticlient_installer.py", "scripts")],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

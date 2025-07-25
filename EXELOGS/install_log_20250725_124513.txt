@@ -1,0 +1,33 @@
+2025-07-25 12:45:13,940 - 14508 - __main__ - INFO - ==== Installation script started at 2025-07-25 12:45:13.939902 ====
+2025-07-25 12:45:13,940 - 14508 - __main__ - DEBUG - ==================== System Information ====================
+2025-07-25 12:45:13,940 - 14508 - __main__ - DEBUG - ==========================================================
+2025-07-25 12:45:13,941 - 14508 - __main__ - DEBUG - --- Running Pre-flight System Checks ---
+2025-07-25 12:45:14,058 - 14508 - __main__ - DEBUG - Checking disk space on 'C:': 425.51 GB free.
+2025-07-25 12:45:14,059 - 14508 - __main__ - DEBUG - Checking for internet connectivity...
+2025-07-25 12:45:14,246 - 14508 - __main__ - DEBUG - Internet connection verified.
+2025-07-25 12:45:14,246 - 14508 - __main__ - DEBUG - --- Checking status of critical Windows services ---
+2025-07-25 12:45:14,250 - 14508 - __main__ - DEBUG - Checking service 'msiserver': Status is 'stopped', Start type is 'manual'.
+2025-07-25 12:45:14,250 - 14508 - __main__ - DEBUG - Service 'msiserver' is stopped. Attempting to start it...
+2025-07-25 12:45:16,314 - 14508 - __main__ - DEBUG - Service 'msiserver' started successfully.
+2025-07-25 12:45:16,321 - 14508 - __main__ - DEBUG - Checking service 'BITS': Status is 'running', Start type is 'automatic'.
+2025-07-25 12:45:16,322 - 14508 - __main__ - WARNING - IMPORTANT: For Sophos or other AV installations, ensure Tamper Protection is DISABLED in the central dashboard before running.
+2025-07-25 12:45:16,323 - 14508 - __main__ - WARNING - IMPORTANT: Ensure this script is run from a trusted location or whitelisted in any existing security software to prevent it from being blocked.
+2025-07-25 12:45:16,325 - 14508 - __main__ - WARNING - IMPORTANT: This script extracts files to a temporary directory in %LOCALAPPDATA% (C:\Users\user\AppData\Local\AutomateSoftwares). Some security policies may block execution from this location. Please ensure the path is trusted.
+2025-07-25 12:45:16,326 - 14508 - __main__ - INFO - --- Pre-flight System Checks Passed ---
+2025-07-25 12:45:16,326 - 14508 - __main__ - WARNING - Please ensure that User Account Control (UAC) is not blocking silent installations.
+2025-07-25 12:45:16,334 - 14508 - __main__ - INFO - Loading software configuration from C:\Users\user\AppData\Local\Temp\_MEI99242\software_config.json
+2025-07-25 12:45:16,365 - 14508 - __main__ - INFO - Software configuration loaded successfully.
+2025-07-25 12:45:16,366 - 14508 - __main__ - INFO - Beginning software installation sequence...
+2025-07-25 12:45:16,367 - 14508 - __main__ - INFO - 
+==================================================
+Starting installation for: 7-Zip
+==================================================
+
+2025-07-25 12:45:16,368 - 14508 - __main__ - WARNING - No hash provided for 7z920-x64.msi. Cannot verify integrity.
+2025-07-25 12:45:16,368 - 14508 - __main__ - INFO - '7-Zip' is already installed (check path exists: C:\Program Files\7-Zip\7z.exe). Skipping.
+2025-07-25 12:45:16,369 - 14508 - __main__ - INFO - 
+==================================================
+Starting installation for: Google Chrome
+==================================================
+
+2025-07-25 12:45:16,370 - 14508 - __main__ - INFO - Handing off to chrome_installer.py for GUI-based installation.

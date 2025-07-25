@@ -1,0 +1,42 @@
+2025-07-24 17:02:29,399 - 14992 - __main__ - INFO - ==== Installation script started at 2025-07-24 17:02:29.399637 ====
+2025-07-24 17:02:29,400 - 14992 - __main__ - DEBUG - ==================== System Information ====================
+2025-07-24 17:02:29,400 - 14992 - __main__ - DEBUG - ==========================================================
+2025-07-24 17:02:29,400 - 14992 - __main__ - DEBUG - --- Running Pre-flight System Checks ---
+2025-07-24 17:02:29,517 - 14992 - __main__ - DEBUG - Checking disk space on 'C:': 35.80 GB free.
+2025-07-24 17:02:29,517 - 14992 - __main__ - DEBUG - Checking for internet connectivity...
+2025-07-24 17:02:29,639 - 14992 - __main__ - DEBUG - Internet connection verified.
+2025-07-24 17:02:29,639 - 14992 - __main__ - DEBUG - --- Checking status of critical Windows services ---
+2025-07-24 17:02:29,641 - 14992 - __main__ - DEBUG - Checking service 'msiserver': Status is 'running', Start type is 'manual'.
+2025-07-24 17:02:29,642 - 14992 - __main__ - DEBUG - Checking service 'BITS': Status is 'stopped', Start type is 'manual'.
+2025-07-24 17:02:29,642 - 14992 - __main__ - DEBUG - Service 'BITS' is stopped. Attempting to start it...
+2025-07-24 17:02:31,773 - 14992 - __main__ - WARNING - Failed to start service 'BITS'. Current status: 'start_pending'.
+2025-07-24 17:02:31,774 - 14992 - __main__ - WARNING - IMPORTANT: For Sophos or other AV installations, ensure Tamper Protection is DISABLED in the central dashboard before running.
+2025-07-24 17:02:31,776 - 14992 - __main__ - WARNING - IMPORTANT: Ensure this script is run from a trusted location or whitelisted in any existing security software to prevent it from being blocked.
+2025-07-24 17:02:31,777 - 14992 - __main__ - WARNING - IMPORTANT: This script extracts files to a temporary directory in %LOCALAPPDATA% (C:\Users\zkperera\AppData\Local\AutomateSoftwares). Some security policies may block execution from this location. Please ensure the path is trusted.
+2025-07-24 17:02:31,777 - 14992 - __main__ - INFO - --- Pre-flight System Checks Passed ---
+2025-07-24 17:02:31,778 - 14992 - __main__ - WARNING - Please ensure that User Account Control (UAC) is not blocking silent installations.
+2025-07-24 17:02:31,786 - 14992 - __main__ - INFO - Loading software configuration from C:\Users\zkperera\PycharmProjects\AutomateSoftwares\software_config.json
+2025-07-24 17:02:31,796 - 14992 - __main__ - INFO - Software configuration loaded successfully.
+2025-07-24 17:02:31,796 - 14992 - __main__ - INFO - Beginning software installation sequence...
+2025-07-24 17:02:31,797 - 14992 - __main__ - INFO - 
+==================================================
+Starting installation for: WPS Pro
+==================================================
+
+2025-07-24 17:02:31,798 - 14992 - __main__ - WARNING - No hash provided for WPS-Pro-v10330.msi. Cannot verify integrity.
+2025-07-24 17:02:31,798 - 14992 - __main__ - INFO - --- Running pre-install cleanup ---
+2025-07-24 17:02:31,799 - 14992 - __main__ - INFO - Running installer for 'WPS Pro' from 'C:\Users\zkperera\PycharmProjects\AutomateSoftwares\Softwares\WPS-Pro-v10330.msi'
+2025-07-24 17:02:31,800 - 14992 - __main__ - DEBUG - --- Process List Snapshot (pre-install) ---
+2025-07-24 17:02:31,800 - 14992 - __main__ - DEBUG - --- End Process List ---
+2025-07-24 17:02:31,800 - 14992 - __main__ - INFO - Attempting installation of WPS-Pro-v10330.msi with argument set 1/1: /qn /norestart /L*vx %TEMP%\wps_install_log.txt
+2025-07-24 17:02:31,800 - 14992 - __main__ - DEBUG - Preparing to run installer: C:\Users\zkperera\PycharmProjects\AutomateSoftwares\Softwares\WPS-Pro-v10330.msi with args: ['/qn', '/norestart', '/L*vx', '%TEMP%\\wps_install_log.txt']
+2025-07-24 17:02:31,800 - 14992 - __main__ - INFO - Executing command: msiexec.exe /i C:\Users\zkperera\PycharmProjects\AutomateSoftwares\Softwares\WPS-Pro-v10330.msi /qn /norestart /L*vx C:\Users\zkperera\AppData\Local\Temp\wps_install_log.txt
+2025-07-24 17:02:40,914 - 14992 - __main__ - DEBUG - Installer process completed for C:\Users\zkperera\PycharmProjects\AutomateSoftwares\Softwares\WPS-Pro-v10330.msi.
+2025-07-24 17:02:40,914 - 14992 - __main__ - DEBUG - Installer Return Code: 0
+2025-07-24 17:02:40,914 - 14992 - __main__ - INFO - Successfully ran installer WPS-Pro-v10330.msi with argument set 1.
+2025-07-24 17:02:40,914 - 14992 - __main__ - INFO - Watching for process 'wps_setup.exe' to start...
+2025-07-24 17:02:42,969 - 14992 - __main__ - INFO - Process 'wps_setup.exe' found with PID 20664. Now waiting for it to finish.
+2025-07-24 17:04:59,702 - 14992 - __main__ - INFO - Process 'wps_setup.exe' has finished.
+2025-07-24 17:04:59,721 - 14992 - __main__ - INFO - Checking if another MSI installation is in progress...
+2025-07-24 17:04:59,750 - 14992 - __main__ - INFO - Another installation is still in progress. Waiting...
+2025-07-24 17:05:09,764 - 14992 - __main__ - INFO - Another installation is still in progress. Waiting...

@@ -1,0 +1,75 @@
+2025-07-25 12:50:30,065 - 16880 - __main__ - INFO - ==== Installation script started at 2025-07-25 12:50:30.065091 ====
+2025-07-25 12:50:30,065 - 16880 - __main__ - DEBUG - ==================== System Information ====================
+2025-07-25 12:50:30,065 - 16880 - __main__ - DEBUG - ==========================================================
+2025-07-25 12:50:30,065 - 16880 - __main__ - DEBUG - --- Running Pre-flight System Checks ---
+2025-07-25 12:50:30,112 - 16880 - __main__ - DEBUG - Checking disk space on 'C:': 425.51 GB free.
+2025-07-25 12:50:30,112 - 16880 - __main__ - DEBUG - Checking for internet connectivity...
+2025-07-25 12:50:30,250 - 16880 - __main__ - DEBUG - Internet connection verified.
+2025-07-25 12:50:30,250 - 16880 - __main__ - DEBUG - --- Checking status of critical Windows services ---
+2025-07-25 12:50:30,253 - 16880 - __main__ - DEBUG - Checking service 'msiserver': Status is 'running', Start type is 'manual'.
+2025-07-25 12:50:30,255 - 16880 - __main__ - DEBUG - Checking service 'BITS': Status is 'running', Start type is 'automatic'.
+2025-07-25 12:50:30,255 - 16880 - __main__ - WARNING - IMPORTANT: For Sophos or other AV installations, ensure Tamper Protection is DISABLED in the central dashboard before running.
+2025-07-25 12:50:30,255 - 16880 - __main__ - WARNING - IMPORTANT: Ensure this script is run from a trusted location or whitelisted in any existing security software to prevent it from being blocked.
+2025-07-25 12:50:30,255 - 16880 - __main__ - WARNING - IMPORTANT: This script extracts files to a temporary directory in %LOCALAPPDATA% (C:\Users\user\AppData\Local\AutomateSoftwares). Some security policies may block execution from this location. Please ensure the path is trusted.
+2025-07-25 12:50:30,255 - 16880 - __main__ - INFO - --- Pre-flight System Checks Passed ---
+2025-07-25 12:50:30,256 - 16880 - __main__ - WARNING - Please ensure that User Account Control (UAC) is not blocking silent installations.
+2025-07-25 12:50:30,259 - 16880 - __main__ - INFO - Loading software configuration from C:\Users\user\AppData\Local\Temp\_MEI99242\software_config.json
+2025-07-25 12:50:30,260 - 16880 - __main__ - INFO - Software configuration loaded successfully.
+2025-07-25 12:50:30,260 - 16880 - __main__ - INFO - Beginning software installation sequence...
+2025-07-25 12:50:30,260 - 16880 - __main__ - INFO - 
+==================================================
+Starting installation for: 7-Zip
+==================================================
+
+2025-07-25 12:50:30,260 - 16880 - __main__ - WARNING - No hash provided for 7z920-x64.msi. Cannot verify integrity.
+2025-07-25 12:50:30,260 - 16880 - __main__ - INFO - '7-Zip' is already installed (check path exists: C:\Program Files\7-Zip\7z.exe). Skipping.
+2025-07-25 12:50:30,260 - 16880 - __main__ - INFO - 
+==================================================
+Starting installation for: Google Chrome
+==================================================
+
+2025-07-25 12:50:30,261 - 16880 - __main__ - INFO - Handing off to chrome_installer.py for GUI-based installation.
+2025-07-25 12:50:30,419 - 16880 - __main__ - ERROR - chrome_installer.py failed with exit code 1
+2025-07-25 12:50:30,419 - 16880 - __main__ - ERROR - Stdout: 
+2025-07-25 12:50:30,419 - 16880 - __main__ - ERROR - Stderr: Traceback (most recent call last):
+  File "installer.py", line 76, in <module>
+  File "pathlib\_local.py", line 746, in unlink
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\user\\Downloads\\dist\\logs\\install_log_20250725_125030.txt'
+[PYI-16708:ERROR] Failed to execute script 'installer' due to unhandled exception!
+
+2025-07-25 12:50:30,420 - 16880 - __main__ - ERROR - An unexpected error occurred during installation of Google Chrome: Command '['C:\\Users\\user\\Downloads\\dist\\installer.exe', 'C:\\Users\\user\\AppData\\Local\\Temp\\_MEI99242\\scripts\\chrome_installer.py']' returned non-zero exit status 1.
+2025-07-25 12:50:30,420 - 16880 - __main__ - ERROR - Error installing Google Chrome: Command '['C:\\Users\\user\\Downloads\\dist\\installer.exe', 'C:\\Users\\user\\AppData\\Local\\Temp\\_MEI99242\\scripts\\chrome_installer.py']' returned non-zero exit status 1.
+2025-07-25 12:50:30,420 - 16880 - __main__ - INFO - 
+==================================================
+Starting installation for: FortiClient VPN
+==================================================
+
+2025-07-25 12:50:30,421 - 16880 - __main__ - INFO - Handing off to forticlient_installer.py for GUI-based installation.
+2025-07-25 12:50:30,575 - 16880 - __main__ - ERROR - forticlient_installer.py failed with exit code 1
+2025-07-25 12:50:30,575 - 16880 - __main__ - ERROR - Stdout: 
+2025-07-25 12:50:30,575 - 16880 - __main__ - ERROR - Stderr: Traceback (most recent call last):
+  File "installer.py", line 76, in <module>
+  File "pathlib\_local.py", line 746, in unlink
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\user\\Downloads\\dist\\logs\\install_log_20250725_125030.txt'
+[PYI-552:ERROR] Failed to execute script 'installer' due to unhandled exception!
+
+2025-07-25 12:50:30,575 - 16880 - __main__ - ERROR - An unexpected error occurred during installation of FortiClient VPN: Command '['C:\\Users\\user\\Downloads\\dist\\installer.exe', 'C:\\Users\\user\\AppData\\Local\\Temp\\_MEI99242\\scripts\\forticlient_installer.py']' returned non-zero exit status 1.
+2025-07-25 12:50:30,576 - 16880 - __main__ - ERROR - Error installing FortiClient VPN: Command '['C:\\Users\\user\\Downloads\\dist\\installer.exe', 'C:\\Users\\user\\AppData\\Local\\Temp\\_MEI99242\\scripts\\forticlient_installer.py']' returned non-zero exit status 1.
+2025-07-25 12:50:30,576 - 16880 - __main__ - INFO - 
+==================================================
+Starting installation for: Local Office Agent
+==================================================
+
+2025-07-25 12:50:30,576 - 16880 - __main__ - WARNING - No hash provided for LocalOffice_Agent.exe. Cannot verify integrity.
+2025-07-25 12:50:30,576 - 16880 - __main__ - WARNING - No 'check_path' provided for 'Local Office Agent'. Installation success cannot be reliably verified.
+2025-07-25 12:50:30,576 - 16880 - __main__ - INFO - Running installer for 'Local Office Agent' from 'C:\Users\user\Downloads\dist\Softwares\LocalOffice_Agent.exe'
+2025-07-25 12:50:30,576 - 16880 - __main__ - DEBUG - --- Process List Snapshot (pre-install) ---
+2025-07-25 12:50:30,576 - 16880 - __main__ - DEBUG - --- End Process List ---
+2025-07-25 12:50:30,576 - 16880 - __main__ - INFO - Attempting installation of LocalOffice_Agent.exe with argument set 1/1: /silent
+2025-07-25 12:50:30,576 - 16880 - __main__ - DEBUG - Preparing to run installer: C:\Users\user\Downloads\dist\Softwares\LocalOffice_Agent.exe with args: ['/silent']
+2025-07-25 12:50:30,576 - 16880 - __main__ - INFO - Executing command: C:\Users\user\Downloads\dist\Softwares\LocalOffice_Agent.exe /silent
+2025-07-25 12:50:51,087 - 16880 - __main__ - DEBUG - Installer process completed for C:\Users\user\Downloads\dist\Softwares\LocalOffice_Agent.exe.
+2025-07-25 12:50:51,087 - 16880 - __main__ - DEBUG - Installer Return Code: 0
+2025-07-25 12:50:51,087 - 16880 - __main__ - INFO - Successfully ran installer LocalOffice_Agent.exe with argument set 1.
+2025-07-25 12:50:51,087 - 16880 - __main__ - INFO - Watching for process 'msiexec.exe' to start...
+2025-07-25 12:50:51,100 - 16880 - __main__ - INFO - Process 'msiexec.exe' found with PID 13248. Now waiting for it to finish.

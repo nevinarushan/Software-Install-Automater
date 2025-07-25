@@ -19,20 +19,7 @@
         "name": "Google Chrome",
         "check_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
         "installer": "ChromeSetup.exe",
-        "expected_hash": "",
-        "args_list": [
-            [
-                "/silent",
-                "/install"
-            ],
-            [
-                "--silent",
-                "--do-not-launch-chrome"
-            ]
-        ],
-        "processes_to_check": [
-            "chrome.exe"
-        ]
+        "expected_hash": ""
     },
     {
         "name": "FortiClient VPN",
@@ -61,21 +48,14 @@
             [
                 "/silent"
             ]
-        ]
+        ],
+        "process_name_to_watch": "msiexec.exe"
     },
     {
         "name": "Microsoft Office",
         "check_path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
         "installer": "OfficeSetup.exe",
-        "expected_hash": "",
-        "args_list": [
-            [
-                "/configure",
-                "{SOFTWARE_DIR}\\config.xml"
-            ]
-        ],
-        "process_name_to_watch": "setup.exe",
-        "process_timeout": 5400
+        "expected_hash": ""
     },
     {
         "name": "SAP GUI 8.0",
@@ -137,7 +117,6 @@
                 "%TEMP%\\wps_install_log.txt"
             ]
         ],
-        "native_log_paths": ["%TEMP%\\wps_install_log.txt"],
-        "process_name_to_watch": "wps_setup.exe"
+        "native_log_paths": ["%TEMP%\\wps_install_log.txt"]
     }
 ]
